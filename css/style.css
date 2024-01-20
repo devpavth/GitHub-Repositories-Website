@@ -1,0 +1,73 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#repo-image{
+    width: 300px;
+}
+
+.link-page{
+    text-decoration: none;
+    /* margin-top: -15px; */
+    color: black;
+}
+
+.btn-info{
+    background-color: #a8dff0 !important;
+    color: #0275d8;
+}
+
+.btn-info:hover{
+    background-color: #0275d8 !important;
+    color: #fff;
+}
+
+
+
+.truncate-description{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 2 * 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    /* For Firefox */
+    display: -moz-box;
+    -moz-box-orient: vertical;
+}
+
+
+#loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 3%;
+    height: 4%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
