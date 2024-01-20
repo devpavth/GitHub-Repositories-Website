@@ -43,6 +43,7 @@ git clone https://github.com/devpavth/GitHub-Repositories-Website.git
 
 
 **Assumptions**
+  
   During the development of this project, certain assumptions were made to streamline the implementation. It's important to be aware of these assumptions to understand the context of the application.
   
 **Assumption 1: GitHub API Availability**
