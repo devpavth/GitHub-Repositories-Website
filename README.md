@@ -29,7 +29,7 @@ Designed a website that displays public GitHub repositories belonging to a speci
 Follow these steps to run the GitHub Repositories Listing Page locally on your machine:
 
 **Clone the Repository:**
-```bash
+     ```bash
      git clone https://github.com/devpavth/GitHub-Repositories-Website.git
 
 1. Navigate to Project Folder: cd GitHub-Repositories-Website
