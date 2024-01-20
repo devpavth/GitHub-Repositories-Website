@@ -26,6 +26,13 @@ Features
 
 How to Run Locally
 
-  Clone this repository to your local machine.
-  ```bash
-  git clone https://github.com/devpavth/GitHub-Repositories-Website.git
+  Follow these steps to run the GitHub Repositories Listing Page locally on your machine:
+
+  **Clone the Repository:**
+   ```bash
+   git clone https://github.com/devpavth/GitHub-Repositories-Website.git
+
+1. Navigate to Project Folder:
+  bash
+
+cd GitHub-Repositories-Website
