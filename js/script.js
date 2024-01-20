@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to fetch GitHub repositories
     function fetchRepositories(username, perPage, page, search) {
         const token = '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'; //MY_PERSONAL_ACCESS_TOKEN
-        console.log('Token:', token);
+        // console.log('Token:', token);
         showLoader();
         // Make API call to fetch repositories
         // Update the API URL with the actual GitHub API endpoint for user repositories
