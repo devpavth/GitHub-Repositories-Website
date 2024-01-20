@@ -165,11 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     function fetchUserDetails(username) {
         const token = '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'; //MY_PERSONAL_ACCESS_TOKEN
-        fetch(`https://api.github.com/users/${username}`,{
-            headers:{
-                'Authorization': `Bearer ${token}`
-            }
-        })
+        fetch(`https://api.github.com/users/${username}`)
             .then(response => response.json())
             .then(user => {
                 console.log('GitHub User Details:', user);
@@ -223,11 +219,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         console.log('API URL:', apiUrl);
 
-        fetch(apiUrl,{
-            headers: {
-                'Authorization': `Bearer ${token}`
-            }
-        })
+        fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
             console.log('GitHub API Response:', data);
