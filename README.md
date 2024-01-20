@@ -14,3 +14,18 @@ Technologies Used
 - CSS
 - JavaScript
 - Bootstrap
+
+Features
+
+- Fetch public GitHub repositories using GitHub API
+- Pagination with 10 repositories per page, spanning 10 pages
+- Quick navigation buttons for pagination
+- Loader indication during API calls
+- Display repository name, description, language, and topics
+- "View on GitHub" button for direct navigation
+
+  How to Run Locally
+
+  Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/devpavth/GitHub-Repositories-Website.git
