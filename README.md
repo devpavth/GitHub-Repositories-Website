@@ -24,8 +24,8 @@ Features
 - Display repository name, description, language, and topics
 - "View on GitHub" button for direct navigation
 
-  How to Run Locally
+How to Run Locally
 
   Clone this repository to your local machine.
-   ```bash
-   git clone https://github.com/devpavth/GitHub-Repositories-Website.git
+  ```bash
+  git clone https://github.com/devpavth/GitHub-Repositories-Website.git
