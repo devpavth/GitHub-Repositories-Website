@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     function fetchUserDetails(username) {
-        const token = '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'; //MY_PERSONAL_ACCESS_TOKEN
+        const token = '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'; //MY_PERSONAL_ACCESS_TOKEN
         fetch(`https://api.github.com/users/${username}`,{
             headers:{
                 'Authorization': `Bearer ${token}`
@@ -210,7 +210,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to fetch GitHub repositories
     function fetchRepositories(username, perPage, page, search) {
-        const token = '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'; //MY_PERSONAL_ACCESS_TOKEN
+        const token = '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'; //MY_PERSONAL_ACCESS_TOKEN
+        console.log('Token:', token);
         showLoader();
         // Make API call to fetch repositories
         // Update the API URL with the actual GitHub API endpoint for user repositories
@@ -220,7 +221,7 @@ document.addEventListener('DOMContentLoaded', function () {
             apiUrl += `&q=${search}`;
         }
 
-        // console.log(apiUrl); 
+        console.log('API URL:', apiUrl);
 
         fetch(apiUrl,{
             headers: {
