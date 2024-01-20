@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initial page and total pages
     let currentPage = 1;
     const perPage = 10; // Set the number of repositories per page
-    const totalPages = 10; // You need to set the total number of pages
+    const totalPages = 10; // Set the total number of pages
 
     console.log('currentPage:', currentPage);
     console.log('totalPages:', totalPages);
