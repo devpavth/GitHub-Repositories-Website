@@ -5,7 +5,7 @@ Designed a website that displays public GitHub repositories belonging to a speci
 
 **Live Preview**
 
-- GitHub Repositories Listing Page -
+- GitHub Repositories Listing Page 
 ```bash
 https://devpavth.github.io/GitHub-Repositories-Website/
 ```
