@@ -40,3 +40,11 @@ git clone https://github.com/devpavth/GitHub-Repositories-Website.git
 2. Open in Code Editor: Open the project folder in your preferred code editor. If you don't have a code editor, you can download and install Visual Studio Code or Atom.
 3. Run in Browser: Open the index.html file in your web browser.
 4. Explore the Website: Once the web page is open, you can explore the GitHub Repositories Listing Page with the provided functionality.
+
+
+**Assumptions**
+During the development of this project, certain assumptions were made to streamline the implementation. It's important to be aware of these assumptions to understand the context of the application.
+**Assumption 1: GitHub API Availability**
+- It is assumed that the GitHub API used for fetching repositories will be available and operational during the usage of this application. In the event of GitHub API downtime or changes, the application's functionality may be affected.
+**Assumption 2: Stable Internet Connection**
+- The application assumes that the user has a stable internet connection to make API calls to GitHub. Unstable or no internet connectivity may result in issues with fetching repository data.
