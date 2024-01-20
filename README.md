@@ -15,7 +15,7 @@ Technologies Used
 - JavaScript
 - Bootstrap
 
-Features
+**Features**
 
 - Fetch public GitHub repositories using GitHub API
 - Pagination with 10 repositories per page, spanning 10 pages
@@ -32,11 +32,7 @@ How to Run Locally
    ```bash
    git clone https://github.com/devpavth/GitHub-Repositories-Website.git
 
-1. Navigate to Project Folder:
-  cd GitHub-Repositories-Website
-2. Open in Code Editor:
-  Open the project folder in your preferred code editor. If you don't have a code editor, you can download and install Visual Studio Code or Atom.
-3. Run in Browser:
-  Open the index.html file in your web browser.
-4. Explore the Website:
-Once the web page is open, you can explore the GitHub Repositories Listing Page with the provided functionality.
+1. Navigate to Project Folder: cd GitHub-Repositories-Website
+2. Open in Code Editor: Open the project folder in your preferred code editor. If you don't have a code editor, you can download and install Visual Studio Code or Atom.
+3. Run in Browser: Open the index.html file in your web browser.
+4. Explore the Website: Once the web page is open, you can explore the GitHub Repositories Listing Page with the provided functionality.
