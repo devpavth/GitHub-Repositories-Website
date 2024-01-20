@@ -43,8 +43,10 @@ git clone https://github.com/devpavth/GitHub-Repositories-Website.git
 
 
 **Assumptions**
-During the development of this project, certain assumptions were made to streamline the implementation. It's important to be aware of these assumptions to understand the context of the application.
+  During the development of this project, certain assumptions were made to streamline the implementation. It's important to be aware of these assumptions to understand the context of the application.
+  
 **Assumption 1: GitHub API Availability**
 - It is assumed that the GitHub API used for fetching repositories will be available and operational during the usage of this application. In the event of GitHub API downtime or changes, the application's functionality may be affected.
+
 **Assumption 2: Stable Internet Connection**
 - The application assumes that the user has a stable internet connection to make API calls to GitHub. Unstable or no internet connectivity may result in issues with fetching repository data.
